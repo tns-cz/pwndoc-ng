@@ -660,6 +660,7 @@ export default {
           multicolor: true,
         }),
         Link.configure({
+          autolink: false,
           protocols: ['ftp', 'mailto'],
              linkOnPaste: false,
               openOnClick: false,
